@@ -26,6 +26,7 @@ def setup():
     f = open("ciscos2.txt",'r')
     for lines in f:
         ciscos.append(lines)
+    f.close()
     return ciscos
 
 def main():
